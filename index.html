@@ -4,24 +4,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <title>Portfolio</title>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a href="./index.html"><img src="./images/icon/logo.png" alt="logo" width="97"></a>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Tech Stack</li>
-        <li>Projects</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
-
+  <header class="header">
+    <div class="container">
+      <div class="header_inner">
+        <nav class="header_nav">
+          <a href="./index.html"><img src="./images/icon/logo.png" alt="logo" width="97"></a>
+          <ul class="nav_list">
+            <li><a class="nav_link" href="#">Home</a></li>
+            <li><a class="nav_link" href="#">About</a></li>
+            <li><a class="nav_link" href="#">Tech Stack</a></li>
+            <li><a class="nav_link" href="#">Projects</a></li>
+            <li><a class="nav_link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header_socials">
+          <a href="#" target="_blank"><img src="./images/icon/git.svg" alt="GitHub" width="30"></a>
+          <a href="#" target="_blank"><img src="./images/icon/twiter.svg" alt="Twiter" width="30"></a>
+          <a href="#" target="_blank"><img src="./images/icon/link.svg" alt="LinkID" width="30"></a>
+        </div>
+      </div>
+    </div>
   </header>
-  <main></main>
+  <main>
+    <div class="container hero-section">
+      <div class="hero-title">Hi 👋,<br>
+        My name is <br>
+        <span class="name">Pavan MG</span><br>
+        I build things for web
+      </div>
+      <div>
+        <img src="./images/main-image.jpg" alt="My photo" width="349">
+      </div>
+    </div>
+  </main>
   <footer></footer>
 </body>
 
